@@ -2,6 +2,11 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-    <Button id="idButton" text="Click me"></Button>
-    </Page>
+        <HBox id="idHBox">
+            <Label id="idLable" text="Input1"></Label>
+            <Input id="idInp" value="" placeholder="Please Enter some value..." width="40%">
+            </Input>
+        </HBox>
+        <Button id="idButton" text="Click me"></Button>
+     </Page>
 </mvc:View>
